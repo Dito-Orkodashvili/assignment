@@ -16,6 +16,6 @@ app.use(express.json())
 
 app.use('/users', usersRoutes)
 
-app.get('/', (req, res) => res.redirect('/api-docs'))
+app.use(express.static('public'))
 
 app.listen(PORT, () => console.log(`Server is running on: http://localhost:${PORT}`))

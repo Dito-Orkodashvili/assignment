@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #393939;
+    font-size: 16px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 75rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 0.5rem;
+}
+
+.task {
+    padding: 0.3rem;
+}
+
+.task li {
+    padding: 0.3rem;
+}
