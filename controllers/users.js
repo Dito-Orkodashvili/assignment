@@ -61,7 +61,7 @@ const createUser = (req, res) => {
         activated
     })
 
-    res.send(`User with the name ${firstName} was created!`)
+    res.status(200).json({msg: `User with the name ${firstName} was created!`})
 }
 
 const updateUser = (req, res) => {
